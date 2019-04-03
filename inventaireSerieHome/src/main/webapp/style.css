@@ -1,0 +1,39 @@
+body{
+	background-color: #d9d9d9;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	text-align:center;
+}
+
+form, select,table{
+	text-align:center;
+}
+
+label{
+	display: inline-block;
+	width: 160px;
+	text-align: left;
+}
+
+.listeDesSeries{
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	heigth: 25%;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  width: 20%;
+}
+
